@@ -32,7 +32,7 @@ if (@$_GET['email'] <> "") {
 <html>
 <head><title> Data Form </title></head>
 <body>
-<!-- mit $_SERVER['PHP_SELF'] wird dieselbe Seite wieder aufgerufen-->
+
 <form action="<?php $_SERVER['PHP_SELF'] ?>" method="get">
 
     <p>Name:<br/>
@@ -56,4 +56,3 @@ if (@$_GET['email'] <> "") {
 
 </body>
 </html>
-
